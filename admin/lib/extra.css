@@ -1,0 +1,106 @@
+.formlayout{
+	padding: 10px;
+}
+
+.formlayout label{
+	width: 110px;
+	font-size: 14px;
+	text-align: right;
+	padding-right: 10px;
+}
+.input{
+	display: block;
+	float: left;
+	margin-top: 10px;
+}
+
+.formlayout label /*, .formlayout input, .formlayout textarea, .formlayout select */{
+	display: block;
+	float: left;
+	margin-top: 10px;
+}
+
+.formlayout br{
+	clear: left;
+}
+
+.formlayout span{
+	display: block;
+	margin-left: 140px;
+	font-size: 10px;
+}
+
+input[type="text"] {
+	border: 1px solid #9AC3CB;
+}
+
+input.d{
+	border: 0px;
+	background-color: #B4D7E7;
+}
+
+.msg{
+	color: #3d4c53;
+	background-color: #c2d985;
+	border: 1px solid #3d4c53;
+	border-radius: 5px;
+	font-weight: bold;
+	padding: 2px;
+	margin: 4px;
+}
+
+.msg_e{
+	color: #FF3300;
+	background-color: #FFDBE4;
+	border: 1px solid #f00;
+	border-radius: 5px;
+	font-weight: bold;
+	padding: 2px;
+	margin: 4px;
+}
+
+
+/*for paging */
+#paging{
+	font-size:14px;
+}
+
+#paging a{
+	padding             : 2px 6px;
+	margin-right        : 2px;
+	border              : 1px solid #DEDFDE;
+	text-decoration     : none;
+	color               : #0061DE;
+	background-position : bottom;
+}
+#paging a:hover{
+	background-color: #0063dc;
+	border : 1px solid #fff;
+	color  : #fff;
+}
+#paging a.aktif{
+	border 		: 1px solid #DEDFDE;
+	padding      	: 2px 6px;
+	margin-right 	: 2px;
+	font-weight  	: bold;
+	color        	: #FF0084;
+}
+#paging a.aktif:hover{
+	background-color:#FF0084;
+	border : 1px solid #fff;
+	color  : #fff;
+}
+#paging a.prevnext{
+	padding             : 2px 6px;
+	margin-right        : 2px;
+	border              : 1px solid #DEDFDE;
+	text-decoration     : none;
+	color               : #0061DE;
+	background-position : bottom;
+	font-weight	    : bold;
+}
+#paging a.prevnext:hover{
+	background-color: #0063dc;
+	border : 1px solid #fff;
+	color  : #fff;
+}

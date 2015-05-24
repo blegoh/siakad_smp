@@ -1,0 +1,284 @@
+.formlayout{
+	padding: 10px;
+}
+
+.formlayout label{
+	width: 80px;
+	font-size: 14px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.formlayout label, .formlayout input, .formlayout textarea, .formlayout select{
+	display: block;
+	float: left;
+	margin-top: 10px;
+}
+
+.formlayout br{
+	clear: left;
+}
+
+.formlayout span{
+	display: block;
+	margin-left: 140px;
+	font-size: 10px;
+}
+
+.img_artikel{
+	float:left;
+}
+/* Flash Message */
+.msg{
+	color: #3d4c53;
+	background-color: #58f122;
+	border: 1px solid #3d4c53;
+	border-radius: 5px;
+	font-weight: bold;
+	padding: 2px;
+	margin: 4px;
+}
+
+.msg_e{
+	color: #da1d3c;
+	background-color: #ffdbe4;
+	border: 1px solid #f00;
+	border-radius: 5px;
+	font-weight: bold;
+	padding: 2px;
+	margin: 4px;
+}
+
+/*----- forms -----*/
+#contacts-form { 
+	clear:right;
+	width:100%;
+	overflow:hidden;
+}
+#contacts-form fieldset { 
+	border:none;
+	float:left;
+}
+#contacts-form .field { 
+	clear:both;
+}
+#contacts-form label { 
+	float:left;
+	width:110px;
+	line-height:18px;
+	padding-bottom:6px;
+	font-weight:bold;
+}
+#contacts-form input {
+	width:205px;
+	padding:1px 0 1px 3px;
+	background:none;
+	border:1px solid #e5e5e5;
+	color:#f7f7f7;
+	float:left;
+}
+#contacts-form input:invalid {
+	border-color:red;
+}
+#contacts-form textarea { 
+	width:450px;
+	height:215px;
+	padding:1px 0 1px 3px;
+	background:none;
+	border:1px solid #e5e5e5;
+	color:#f7f7f7;
+	margin-bottom:12px;
+	overflow:auto;
+	float:left;
+}
+#contacts-form div:last-child {
+	padding-left:110px;
+}
+h2 span {
+	color:#8a8a8a;
+}
+input{
+	font-color: #FFF;
+}
+
+label.error { margin-left: 10px; width: auto; display: inline; color: red; font-style: italic; }
+input.error { border-color:#FF0000; }
+
+/*==========================================*/
+
+/*=========Form Pop Up=====================*/
+#form-pop-up{ 
+	clear:right;
+	width:100%;
+	overflow:hidden;
+}
+#form-pop-up fieldset{ 
+	border:none;
+	float:left;
+}
+#form-pop-up .field{ 
+	clear:both;
+}
+#form-pop-up label { 
+	float:left;
+	width:110px;
+	line-height:18px;
+	padding-bottom:6px;
+	font-weight:bold;
+	color:#000;
+}
+#form-pop-up input{
+	width:205px;
+	padding:1px 0 1px 3px;
+	background:none;
+	border:1px solid #e5e5e5;
+	color:#f7f7f7;
+	float:left;
+}
+#form-pop-up input:invalid{
+	border-color:red;
+}
+#form-pop-up textarea{ 
+	width:450px;
+	height:215px;
+	padding:1px 0 1px 3px;
+	background:none;
+	border:1px solid #e5e5e5;
+	color:#f7f7f7;
+	margin-bottom:12px;
+	overflow:auto;
+	float:left;
+}
+#form-pop-up div:last-child{
+	padding-left:110px;
+}
+h2 span {
+	color:#8a8a8a;
+}
+input{
+	font-color: #FFF;
+}
+
+label.error { margin-left: 10px; width: auto; display: inline; color: red; font-style: italic; }
+input.error { border-color:#FF0000; }
+/*============= List Komentar ===========*/
+
+#list-comment{
+	background-color: #272727;
+	border-radius: 5px;
+}
+.comment{
+	padding: 3px;	
+}
+.comment .head{
+	padding: 3px;
+	background-color: #4b4546;
+	border-radius: 5px;
+	width: 200px;
+	margin: 5px;
+}
+	
+blockquote{
+	padding: 15px 6px 6px 25px;
+	background-color: #4e4c4d;
+	background-image: url("images/postquote.png");
+	background-repeat: no-repeat;
+	border-radius: 4px;
+	min-height: 50px;
+}
+
+
+
+/*===============================*/
+
+#facebox .bolder {
+  background: #908d8d;
+ }
+ 
+ #contactFormContainer {
+	position:absolute;
+	left:368px;
+	z-index:1;
+	}
+	
+/* Hides the whole contact form until needed */	
+#contactForm {
+	height:289px;width:558px;
+	background:#515151 url(images/login.png) no-repeat 241px 11px; 
+	border:1px solid #929191;
+	padding:7px 12px; 
+	color:#fff;
+	display:none;
+	}   
+	
+#contactForm span { 
+	display:none; 
+	font-size:9px; 
+	line-height:10px; 
+	padding-left:6px; 
+	color:#f5c478;
+	}
+	
+/* Some styling for the contact button */
+#contactFormContainer .contact {
+	height:47px; width:211px;
+	background:url(images/contact_me.png); 
+	position:absolute; 
+	left:368px; bottom:-44px; 
+	cursor:pointer;
+	}
+#contactForm .submit {
+	border:1px solid #aba8a8; 
+	background:#e5e5e5; 
+	text-transform:uppercase; 
+	color:#4d4d4d; 
+	font-weight:bold; 
+	padding:7px 16px 7px 14px; 
+	height:37px; width:124px; 
+	cursor:pointer; 
+	float:left;
+	}
+	
+/*for paging */
+#paging {
+    font-size: 14px;
+}
+#paging a {
+    background-position: center bottom;
+    border: 1px solid #353535;
+    color: #FF720E;
+    margin-right: 2px;
+    padding: 2px 6px;
+    text-decoration: none;
+}
+#paging a:hover {
+    background-color: #FF720E;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+#paging a.aktif {
+    border: 1px solid #353535;
+    color: #00618A;
+    font-weight: bold;
+    margin-right: 2px;
+    padding: 2px 6px;
+}
+#paging a.aktif:hover {
+    background-color: #00618A;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+#paging a.prevnext {
+    background-position: center bottom;
+    border: 1px solid #353535;
+    color: #FF720E;
+    font-weight: bold;
+    margin-right: 2px;
+    padding: 2px 6px;
+    text-decoration: none;
+}
+#paging a.prevnext:hover {
+    background-color: #FF720E;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
